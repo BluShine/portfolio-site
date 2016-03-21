@@ -331,6 +331,12 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.smaller-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -664,6 +670,10 @@ section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .smaller-heading {
+    color: #fff;
+}
+
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -797,13 +807,19 @@ ul.social-buttons li a:active {
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
+.portfolio-modal .modal-content ul.list-unstyled {
+    margin-top: 0px;
     margin-bottom: 30px;
+}
+.portfolio-modal .modal-content li {
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+	width:100%;
+	height:auto;
 }
 
 .portfolio-modal .close-modal {
