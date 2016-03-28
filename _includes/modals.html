@@ -30,6 +30,12 @@
                                     <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
+								{% if post.repo %}
+								<li>Repository:
+									<strong><a href={{ post.repo }}>{{ post.repo }}</a>
+									</strong>
+								</li>
+								{% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
