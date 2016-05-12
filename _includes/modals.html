@@ -30,6 +30,12 @@
                                     <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
+								{% if post.play %}
+								<li><h4>Play it now:
+									<a href={{ post.play }}>{{ post.play }}</a>
+									</h4>
+								</li>
+								{% endif %}
 								{% if post.repo %}
 								<li>Repository:
 									<strong><a href={{ post.repo }}>{{ post.repo }}</a>
